@@ -12,9 +12,11 @@ public class Main {
 
 	    PC thePC = new PC(theCase, theMonitor, theMotherBoard);
 
-	    thePC.getMonitor().drawPixelAt(1000,1000,"Blue");
-	    thePC.getMotherboard().loadProgram("Linux");
-	    thePC.getTheCase().pressPowerButton();
+//	    thePC.getMonitor().drawPixelAt(1000,1000,"Blue");
+//	    thePC.getMotherboard().loadProgram("Linux");
+//	    thePC.getTheCase().pressPowerButton();
+
+		thePC.powerUp();
 
     }
 }
